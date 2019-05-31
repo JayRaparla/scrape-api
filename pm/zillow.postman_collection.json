@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "41d3fda2-f3ad-486d-99e3-07386278ea3b",
+		"name": "zillow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ashburn_to_tyson_all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "cookie",
+						"value": "abtest=3|DMNc9daRpx1vtqyxMQ; zgsession=1|45f31b34-4a11-4c4e-892d-d20a66ec537c; zguid=23|%248c8126fb-ff71-4aca-a056-d0b7b2896fc4; _ga=GA1.2.1678327574.1555404244; zjs_anonymous_id=%228c8126fb-ff71-4aca-a056-d0b7b2896fc4%22; _pxvid=cb1b2cf1-6023-11e9-bfb8-0242ac12000d; _gcl_au=1.1.845569787.1555404246; DoubleClickSession=true; __gads=ID=476c70aa168cdcef:T=1555404245:S=ALNI_Mao5_VERXaVadDRm7bxRqL69n_GQA; ki_s=172156%3A0.0.0.0.2; KruxPixel=true; KruxAddition=true; fbm_172285552816089=base_domain=.zillow.com; loginmemento=1|50eb225398271c993156d7b479b23c30e2bc193efde97ceb9e1111eda7f1656a; userid=X|3|4be65299a7d94f04%7C3%7C81BdvZCk8tNSdazN832lpUcNucz4sV_qwyXe7VSRg68%3D; zjs_user_id=%22X1-ZU13htkzwi83sw9_4ixyh%22; ZILLOW_SSID=1|; _gid=GA1.2.1942659664.1559183370; JSESSIONID=993C4C2468A36E3E0077F37870D2AE66; ZILLOW_SID=1|AAAAAVVbFRIBVVsVEl7phOAV1mvFO%2FdV1B9trCpYbV5DepljtLbWtHW7R6qfHhJD%2BfhD%2BjPBDeAYX0T27XdPEnJOq4Pd; _pxff_tm=1; _px3=258a9a75c7e0abd4676eb79852e258753980dbd0dd85c62ad7ffe5ca59640f5a:TrJoRjsFdcJlH+Nn5/aGS3KIxaGR8tyXw6f3tjpXs2BvM8fDtgtZB4Uwf1yrr4wPjdzW5CvS5OiSMA7JOfxvIQ==:1000:O1Puye/jgGANjQEtl683pSX1BU2f3L5XmU4uK9razAVXOsZtj6+L3aU2WlvvuRMnfRRo8hTpUwOflsxQ1Dke+TrMm5ncST2t6YPmRvpUcDDoFzRjMQ5RwKqBbsx1c5/3+dsYDZa2TlfTvHjYlBcD158TLD1Qd7l2K3fVmCfeHjo=; ki_t=1555404246896%3B1559265583214%3B1559265583214%3B8%3B46; _gat=1; AWSALB=ZPRHma3vrDhe/r00B9whNu8Z86jOPYEF7FwCDciLiPUBnTkmK9IXdOs7clehqOQTH8+F5nb8RzW59NPDGlHgli6dVuxVrW3fujEwwyDlZ11grWfypMLBicQcERIb; search=6|1561857758548%7Crect%3D39.081973%252C-77.206936%252C38.85535%252C-77.519703%26zm%3D11%26disp%3Dmap%26mdm%3Dauto%26p%3D1%26sort%3Dpricea%26z%3D1%26sch%3Dpem8u%26lt%3Dfsba%252Cfsbo%252Cfore%252Cnew%252Ccmsn%26price%3D0-400000%26mp%3D0-1516%26hoa%3D0-100%26fs%3D1%26fr%3D1%26mmm%3D0%26rs%3D0%26ah%3D0%26singlestory%3D0%26abo%3D0%26garage%3D0%26pool%3D0%26ac%3D0%26waterfront%3D0%26finished%3D0%26unfinished%3D0%26cityview%3D0%26mountainview%3D0%26parkview%3D0%26waterview%3D0%26hoadata%3D1%09%01%0938968%09%09%092%090%09US_%09"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.zillow.com/homes/for_sale/0-400000_price/0-1516_mp/0-100_hoa/pricea_sort/39.081973,-77.206936,38.85535,-77.519703_rect/11_zm/empu8_sch/0_mmm/1_fr/"
+					},
+					{
+						"key": "authority",
+						"value": "www.zillow.com"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://www.zillow.com/search/GetResults.htm?spt=homes&status=100010&lt=111101&ht=111111&pr=,400000&mp=,1516&bd=0%2C&ba=0%2C&sf=,&lot=0%2C&yr=,&singlestory=0&hoa=0%2C100&pho=0&pets=0&parking=0&laundry=0&income-restricted=0&fr-bldg=0&condo-bldg=0&furnished-apartments=0&cheap-apartments=0&studio-apartments=0&pnd=0&red=0&zso=0&days=any&ds=all&pmf=0&pf=0&sch=empu8&zoom=11&rect=-77502537,38855350,-77223759,39081973&p=1&sort=pricea&search=maplist&listright=true&isMapSearch=true&zoom=11",
+					"protocol": "https",
+					"host": [
+						"www",
+						"zillow",
+						"com"
+					],
+					"path": [
+						"search",
+						"GetResults.htm"
+					],
+					"query": [
+						{
+							"key": "spt",
+							"value": "homes"
+						},
+						{
+							"key": "status",
+							"value": "100010"
+						},
+						{
+							"key": "lt",
+							"value": "111101"
+						},
+						{
+							"key": "ht",
+							"value": "111111"
+						},
+						{
+							"key": "pr",
+							"value": ",400000"
+						},
+						{
+							"key": "mp",
+							"value": ",1516"
+						},
+						{
+							"key": "bd",
+							"value": "0%2C"
+						},
+						{
+							"key": "ba",
+							"value": "0%2C"
+						},
+						{
+							"key": "sf",
+							"value": ","
+						},
+						{
+							"key": "lot",
+							"value": "0%2C"
+						},
+						{
+							"key": "yr",
+							"value": ","
+						},
+						{
+							"key": "singlestory",
+							"value": "0"
+						},
+						{
+							"key": "hoa",
+							"value": "0%2C100"
+						},
+						{
+							"key": "pho",
+							"value": "0"
+						},
+						{
+							"key": "pets",
+							"value": "0"
+						},
+						{
+							"key": "parking",
+							"value": "0"
+						},
+						{
+							"key": "laundry",
+							"value": "0"
+						},
+						{
+							"key": "income-restricted",
+							"value": "0"
+						},
+						{
+							"key": "fr-bldg",
+							"value": "0"
+						},
+						{
+							"key": "condo-bldg",
+							"value": "0"
+						},
+						{
+							"key": "furnished-apartments",
+							"value": "0"
+						},
+						{
+							"key": "cheap-apartments",
+							"value": "0"
+						},
+						{
+							"key": "studio-apartments",
+							"value": "0"
+						},
+						{
+							"key": "pnd",
+							"value": "0"
+						},
+						{
+							"key": "red",
+							"value": "0"
+						},
+						{
+							"key": "zso",
+							"value": "0"
+						},
+						{
+							"key": "days",
+							"value": "any"
+						},
+						{
+							"key": "ds",
+							"value": "all"
+						},
+						{
+							"key": "pmf",
+							"value": "0"
+						},
+						{
+							"key": "pf",
+							"value": "0"
+						},
+						{
+							"key": "sch",
+							"value": "empu8"
+						},
+						{
+							"key": "zoom",
+							"value": "11"
+						},
+						{
+							"key": "rect",
+							"value": "-77502537,38855350,-77223759,39081973"
+						},
+						{
+							"key": "p",
+							"value": "1"
+						},
+						{
+							"key": "sort",
+							"value": "pricea"
+						},
+						{
+							"key": "search",
+							"value": "maplist"
+						},
+						{
+							"key": "listright",
+							"value": "true"
+						},
+						{
+							"key": "isMapSearch",
+							"value": "true"
+						},
+						{
+							"key": "zoom",
+							"value": "11"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

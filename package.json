@@ -1,0 +1,14 @@
+{
+  "name": "scrape-api",
+  "version": "1.0.0",
+  "description": "project to make an api for scraping the web",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "dj raparla",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^4.5.0"
+  }
+}
